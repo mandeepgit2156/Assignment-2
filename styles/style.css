@@ -1,0 +1,167 @@
+
+
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    outline: 1px dashed #ddd;
+    background-color: bisque;
+ 
+    
+}
+
+header, main, aside, footer {
+    outline: 1px dashed #ccc;
+}
+
+img {
+    width: 100px;
+}
+
+header > div {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+header > div > div > img {
+    width: 100%;
+}
+
+header > div > div > h1 {
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 { 
+    font-size: 3.8em
+}
+
+h2 { font-size: 2.3em }
+
+h2 {
+    padding-left: 20px;
+}
+
+header > div > img {
+    width: 400px;
+}
+
+body > div > main > div {
+    float: left;
+    padding: 20px;
+}
+
+main > aside > nav > ul > li > a {
+    font-size: 2.7em;
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    background-color:rgb(104, 209, 178);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;  
+}
+
+a:hover {
+    color: #005bbc;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    
+}
+
+header > nav {
+    width: 100%;
+    background-color: #e3fafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+header > nav > ul > li > a {
+    display: flex;
+    width: 8em;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    font-size: 1.3em;
+}
+
+.photo img {
+    width: 300px;
+    padding-top: 2em;
+}
+
+.photo2 img {
+    width: 300px;
+}
+
+.pho2 img {
+    width: 300px;
+    padding-top: -400px;
+}
+
+.bq img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+#mains > li {
+    list-style: none;
+    margin: 0.5em;
+}
+
+header > nav > ul > li > a:hover {
+    background-color: #8cc7ff;
+}
+
+.content {
+    margin-bottom: 1em;
+    display: flex;
+}
+
+main {
+    width: 70%;
+    order: 2;
+}
+
+aside {
+    width: 30%;
+    order: 1;
+}
+
+footer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > nav > ul {
+    display: flex;
+    gap: 1em;
+}
